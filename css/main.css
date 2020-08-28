@@ -1,0 +1,136 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1rem;
+	display: flex;
+	flex-flow: column wrap;
+	text-align: center;
+	height: 100vh;
+	font-weight: 400;
+	margin: 0;
+	color: #404040;
+}
+
+h1 {
+	font-size: 2.25rem;
+	font-weight: 300;
+}
+
+h1 strong {
+	font-weight: 900;
+}
+
+h2 {
+	font-size: 1.3125rem;
+}
+
+#flyer {
+	display: flex;
+	align-items: center;
+	flex-flow: column wrap;
+	justify-content: space-between;
+	background-image: url(../images/dark-ribs.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	height: 50vh;
+}
+
+#flyer h2 {
+	color:#F18119;
+	text-transform: uppercase;
+
+}
+
+.top-text {
+	padding: 0;
+	margin: 0;
+	width: fit-content;
+	order: -2;
+	border-top: 0.625rem solid;
+	border-image: linear-gradient(to left, #FF713B , #FFA51D);
+	border-image-slice: 1;
+	color: #F18119;
+	text-transform: uppercase;
+}
+
+#registration {
+	display: flex;
+	flex-flow: column wrap;
+	height: 50vh;
+}
+
+#registration h2 {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+#registration p:nth-child(2) {
+	color:#F18119;
+	padding-top: 0;
+	margin-top: 0;
+	text-transform: uppercase;
+	font-weight: 800;
+	text-align: center;
+}
+
+form {
+	margin: 0 auto;
+	align-items: center;
+}
+
+input,
+footer {
+	color: #404040;
+	opacity: .5;
+	}
+
+input {
+	padding: 0;
+	width: 80%;
+	height: 2.75em;
+	text-align: center;
+	border: solid 2px black;
+	border-radius: 5px;
+	margin: .5em;
+}
+
+#btn {
+	width: 80%;
+	height: 2.75em;
+	border: none;
+	border-radius: 5px;
+	background: linear-gradient(to left, #FF713B , #FFA51D);
+	color: #FFF;
+}
+
+input,
+#btn {
+	font-size:1.125rem;
+}
+
+footer {
+	position: absolute;
+	bottom: 1px;
+	text-align: center;
+	width: 100%;
+}
+
+@media (min-width: 600px){
+	body{
+	flex-direction: row;
+	width: 100%;
+}
+	#registration,
+	#flyer{
+		height: 100vh;
+		width: 50%;
+		justify-content: center;
+	}
+	.top-text {
+		position: absolute;
+		top: 0;
+	}
+	footer {
+		width: 50%;
+	}
+}
