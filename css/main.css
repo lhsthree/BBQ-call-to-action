@@ -46,12 +46,10 @@ h2 {
 
 .top-text {
 	padding: 0;
-	margin: 0;
-	width: fit-content;
+	margin: 0;	
 	order: -2;
 	border-top: 0.625rem solid;
-	border-image: linear-gradient(to left, #FF713B , #FFA51D);
-	border-image-slice: 1;
+	border-image: linear-gradient(to left, #FF713B , #FFA51D) 1;
 	color: #F18119;
 	text-transform: uppercase;
 }
