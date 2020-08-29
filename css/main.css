@@ -31,8 +31,10 @@ h2 {
 	align-items: center;
 	flex-direction: column;
 	justify-content: space-between;
-	background-image: url(../images/dark-ribs.jpg);
+	background-image: url(../images/ribs.jpg);
 	background-size: cover;
+	background-color: #404040;
+	background-blend-mode: multiply;
 	background-position: center;
 	color: white;
 	min-height: 50vh;
