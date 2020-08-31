@@ -106,7 +106,7 @@ input {
 	background: linear-gradient(to left, #FF713B , #FFA51D);
 	color: #FFF;
 	cursor: pointer;
-	transition:  500ms;
+	transition:  250ms;
 	transform: scale(1);
 }
 
